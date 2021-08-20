@@ -1,0 +1,13 @@
+cache = {}
+def fib(n):
+  """
+  Calculates the n'th Fibonacci number.
+  """
+  global cache
+  if n in cache:
+    return cache[n]
+
+  if n >= 2:
+    return fib(n-1) + fib(n-2)
+  else:
+    return 1
