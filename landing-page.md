@@ -16,8 +16,8 @@ While we programmed:
 
 $F'(x) = {1, 1, 2, 3 \ldots}$
 
-These kinds of subtle mistakes happen all the time when we write scientific code. That's why:
+These kinds of subtle mistakes happen all the time when we write scientific code. This is why:
 
-> Most scientists who write software constantly test their code. That is, if you are a scientist writing software, I am sure that you have tried to see how well your code works by running every new function you write, examining the inputs and the outputs of the function, to see if the code runs properly (without error), and to see whether the results make sense. Automated code testing takes this informal practice, makes it formal, and automates it, so that you can make sure that your code does what it is supposed to do, even as you go about making changes around it. --Ariel Rokem, Shablona README
+> Most scientists who write software constantly test their code. That is, if you are a scientist writing software, I am sure that you have tried to see how well your code works by running every new function you write, examining the inputs and the outputs of the function, to see if the code runs properly (without error), and to see whether the results make sense. Automated code testing **takes this informal practice, makes it formal**, and automates it, so that you can make sure that your code does what it is supposed to do, even as you go about making changes around it. --Ariel Rokem, Shablona README
 
-So let's fix our code, and create tests to check that our code works as expected. That way, if we make another mistake in our code, the tests will catch it!
+So let's fix our code, and create tests to check that our code works as expected. That way, if we make another mistake in our code when we work on it later, the tests will catch it!
