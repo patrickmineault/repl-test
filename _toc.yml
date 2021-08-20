@@ -1,0 +1,5 @@
+format: jb-book
+root: landing-page
+parts:
+- caption: Tutorials
+  file: test-page
