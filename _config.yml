@@ -21,4 +21,4 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://localhost:8888/_build
+  baseurl: https://patrickmineault.github.io/repl-test/
