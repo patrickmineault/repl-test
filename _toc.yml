@@ -1,6 +1,7 @@
 format: jb-book
-root: landing-page
+root: welcome
 parts:
 - caption: Tutorials
   chapters:
-    - file: test-page
+    - file: replit-test
+    - file: thebe-test
